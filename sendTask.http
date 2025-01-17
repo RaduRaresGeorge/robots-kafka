@@ -1,0 +1,33 @@
+###
+
+# curl -X POST -H "Content-Type: text/plain" -d "Cortar lámina de metal 10x20" http://localhost:8080/tasks/cutting-tasks
+POST http://localhost:8080/tasks/cutting-tasks
+Content-Type: text/plain
+
+Cortar lámina de metal 10x20
+
+###
+
+# curl -X POST -H "Content-Type: text/plain" -d "Doblar lámina de metal 10x20" http://localhost:8080/tasks/bending-tasks
+POST http://localhost:8080/tasks/bending-tasks
+Content-Type: text/plain
+
+Doblar lámina de metal 10x20
+
+###
+
+# curl -X POST -H "Content-Type: text/plain" -d "Pintar lámina de metal 10x20" http://localhost:8080/tasks/painting-tasks
+POST http://localhost:8080/tasks/transporting-tasks
+Content-Type: text/plain
+
+Transportar lámina de metal 10x20
+
+###
+
+# curl -X POST -H "Content-Type: text/plain" -d "Apilar lámina de metal 10x20" http://localhost:8080/tasks/stacking-tasks
+POST http://localhost:8080/tasks/stacking-tasks
+Content-Type: text/plain
+
+Apilar lámina de metal 10x20
+
+###
